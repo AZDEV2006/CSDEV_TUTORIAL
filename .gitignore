@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+.env
+.env.*
+!.env.example
+
+logs/
+*.log
+
+/database.db
+/database.db-journal
+/database.db-wal
+/database.db-shm
+
+coverage/
+.nyc_output/
+
+.DS_Store
